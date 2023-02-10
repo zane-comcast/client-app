@@ -14,7 +14,7 @@ function App() {
           console.log(response);
           setActivities(response.data);
         })
-  })
+  }, [])
 
 
   return (
